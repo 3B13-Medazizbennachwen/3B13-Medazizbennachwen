@@ -1,0 +1,182 @@
+body{
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background-color: #2C3E50;
+}
+
+.contenu{
+	width: 100%;
+}
+
+.menu{
+	width: 100%;
+	background-color: rgb(14, 12, 12);
+	display: flex;
+	justify-content: space-around;
+	place-items: center;
+	color: white;
+	padding: 30px 0;
+}
+
+.menu a {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+
+
+.menu div {
+	padding: 20px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius:15px;
+	-o-border-radius: 15px;
+}
+
+.menu div:hover {
+	background-color: rgb(255, 0, 0);
+}
+
+.corps {
+		padding: 0 100px;
+}
+
+.titre {
+		text-align: center;
+		color: rgb(224, 105, 8);
+		margin: 40px 0
+}
+
+.presentation {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
+	border-radius: 15px;
+	background-color: #F4ECF7;
+	padding: 30px 0;
+	border-bottom: 20px solid red;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius:15px;
+	-o-border-radius: 15px;
+}
+
+.image {
+	display: grid;
+	place-items: center;
+}		
+	
+	
+.image img {
+	width: 350px;
+	border: 3px solid black;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+.propos{
+	text-align:center;
+}
+
+.propos h2 {
+	font-size: 35px;
+	color: blue;
+}	
+
+.propos table td {
+	font-size: 20px;
+	padding: 15px 0;
+}
+
+.propos tr td:nth-child(3) {
+	padding-left: 50px;
+}	
+
+.competence {
+	width: 100%;
+	border-radius: 15px;
+	background-color: #EAF2F8;
+	padding: 10px 0;
+	border-bottom: 20px solid rgb(43, 192, 6);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius:15px;
+	-o-border-radius: 15px;
+}
+
+.competence table {
+	padding: 0 100px;
+}
+
+.diplome {
+	width: 100%;
+	border-radius: 15px;
+	background-color: #FCF3CF;
+	padding: 10px 0;
+	border-bottom: 20px solid rgb(255, 0, 242);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius:15px;
+	-o-border-radius: 15px;
+}
+
+.diplome blockquote {
+	border-left: 5px solid silver;
+	height: 50px;
+	display: grid;
+	align-items: center;
+	padding: 10px;
+}	
+
+.loisir {
+	width: 100%;
+	border-radius: 15px;
+	background-color: #ECF0F1;
+	padding: 10px 0;
+	border-bottom: 20px solid rgb(192, 196, 3);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius:15px;
+	-o-border-radius: 15px;
+}
+
+.loisir p {
+	margin: 10px 50px;
+	font-size: 18px;
+}	
+
+.contact {
+	width: 100%;
+	border-radius: 15px;
+	background-color: #E6B0AA;
+	padding: 30px 0;
+	border-bottom: 20px solid rgb(0, 162, 255);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius:15px;
+	-o-border-radius: 15px;
+}
+
+.contact table{
+	padding:0 100px;
+}
+	
+.contact table td {
+	font-size: 20px;
+}
+
+.contact td{
+	padding:15px 0;
+}
+
+.contact tr td:nth-child(3) {
+	padding-left: 50px;
+}
